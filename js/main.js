@@ -14,6 +14,29 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var openPopupButtons = document.querySelectorAll('.open-popup');
+    var popup = document.getElementById('popup');
+    var closePopupButton = document.querySelector('.close-popup');
+  
+    openPopupButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        popup.style.display = 'block';
+      });
+    });
+  
+    closePopupButton.addEventListener('click', function() {
+      popup.style.display = 'none';
+    });
+  
+    window.addEventListener('click', function(event) {
+      if (event.target === popup) {
+        popup.style.display = 'none';
+      }
+    });
+  });
+  
+
 //owlCarousel
 
 $(document).ready(function() {

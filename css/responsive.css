@@ -13,6 +13,15 @@
     .for-mobile{
         display: block;
     }
+    .menu2 .navbar-toggler-icon i {
+        color: #000;
+    }
+    .nav-link{
+        margin-left: 0;
+    }
+    .scetion-title-2 {
+        width: 100%;
+    }
     
 
     .hero {
@@ -74,6 +83,12 @@
         margin-top: 20px;
         width: 100%;
     }
+    .scetion-title-2 h2 {
+      font-size: 30px;
+    }
+    .choose-img2 {
+        height: 48vh;
+    }
     .cal-content {
         text-align: center;
     }
@@ -131,6 +146,64 @@
        margin-left: 0;
        margin-top: 10px;
         width: 42%;
+    }
+    .aboout-us {
+        padding: 50px 0;
+    }
+    section.ceo-message.section-padding{
+        padding: 0;
+    }
+    h2{
+        font-size: 25px!important;
+    }
+    .ceo-content {
+        margin-top: 30px;
+    }
+    .call-action2 p {
+        font-size: 25px;
+        width: 91%;
+    }
+    .mission-box{
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .porperty-showcase {
+        margin-bottom: 30px;
+    }
+    .event-photo ul li {
+        width: 49.33%;
+    }
+    .contact-box{
+        height: auto;
+        margin-bottom: 70px;
+    }
+    .contact-box-map{
+        flex-direction: column-reverse;
+    }
+    .contactmap {
+        width: 100%;
+    }
+    .contact-from-div{
+        width: 100%;
+    }
+    .property-short{
+        flex-direction: column;
+    }
+    .property-short-left {
+        width: 100%;
+    }
+    .page-link-poerty li {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .property-short-right {
+        width: 100%;
+        display: flex;
+        padding-bottom: 15px;
+        justify-content: flex-start;
+    }
+    .ad-iteam{
+        width: 49%;
     }
 }
 @media screen and (max-width: 596px){
